@@ -1,0 +1,93 @@
+
+/* MY STYLES */
+
+
+.reveal h3 {
+  margin-bottom: 1em;
+}
+
+/*.reveal h1, .reveal h2, .reveal h3 {
+  color: #E30800;
+  background-color: ghostwhite;
+}*/
+
+.reveal section.hover {
+  background: rgba(0,0,0,0.5);
+  padding: 20px 0px 20px 0px;
+}
+
+.reveal section section.hover {
+  background: rgba(0,0,0,0.6);
+  padding: 0px 0px 20px 0px;
+}
+
+.reveal section img.logo {
+  border: none;
+  box-shadow: none;
+}
+
+.reveal section img.noborder {
+  border: none;
+  box-shadow: none;
+  /*width: 80%;*/
+}
+
+.reveal section .divleft{
+  float:left;
+  display: inline-block;
+  width: 30%;
+  height: 100%;
+  margin-left: 5%;
+  vertical-align: center;
+}
+
+.reveal section .divright{
+  float:right;
+  display: inline-block;
+  width: 65%;
+}
+
+.reveal blockquote p {
+  font-size: 1.8rem;
+}
+
+.reveal blockquote p.petit {
+  font-size: 1.5rem;
+}
+
+.reveal p.petit {
+  font-size: 1.5rem;
+}
+
+.reveal p.blackbgd {
+  background-color: white;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  /*background: rgba(0, 0, 0, 0.2);*/
+
+}
+
+i {
+  color: Darkorange;
+  /*color: #68CFD6;*/
+
+}
+
+.reveal .imgvalign img{
+  margin-bottom: -0.1rem;
+}
+
+table.tableauNoBold th {
+  font-weight: initial
+}
+
+table.tableau th {
+  border-bottom: none;
+}
+
+table.tableau thead tr th:first-child{
+  border-right: 1px solid;
+}
+
+table.tableau tbody tr td:first-child{
+  border-right: 1px solid;
+}
