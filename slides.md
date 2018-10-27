@@ -102,8 +102,6 @@ Je vous montre ici l'interface complète, où l'on retrouve un éditeur de méta
 
 Ainsi que plusieurs modules outillant nos trois sources : ajoutant des fonctionnalités de versionning, un sommaire, des statistiques sur le document et non visible ici un comparateur de version.
 
-Stylo est le choix de la modularité, tant les formats utilisés, les outils qui implémentent ces formats, et les logiciels de traitements sont interchangeables.
-
 §§§§§SLIDEmoveDown§§§§§
 
 
@@ -122,7 +120,7 @@ the software that interprets them.
 
 
 ===
-Stylo, c'est aussi le choix du low tech, (et du logiciel libre, mais les deux ne sont pas corrélés.)
+Stylo, c'est le choix du low tech, (et en passant du logiciel libre, les deux ne sont pas corrélés.)
 
 Ainsi, les trois formats de fichier sont éditables en mode texte brut ou _plain text_. C'est un aspect important car c'est une excellente garantie de pérennité, nos sources sont et seront lisibles par toutes les machines. La seule interprétation machinique qui en est fait lors de leur lecture brute est éventuellement une coloration syntaxique permettant de mettre en évidence les syntaxes respectivent du markdown, du yaml et du bibtex.
 
@@ -182,6 +180,10 @@ tu veux la faire travailler sur la nouvelle chaine? Si oui, dis-lui
 d'installer atom avec extension markdown et pandoc sur son ordi. Et de
 regarder markdown.
 ```
+===
+en mars 2017, premiers tests, première preuve de concept, on teste sur quelques articles simples
+
+
 
 §§§§§SLIDEmoveDown§§§§§
 <!--  .slide: style="font-size:1.7rem"-->
@@ -203,9 +205,8 @@ Date:   Wed Apr 19 13:37:45 2017 -0400
     ajout templates, protocoles, yaml et xslt - mise à jour readme
 ```
 ===
-en mars 2017, premiers tests, première preuve de concept, on teste sur quelques articles simples
 
-mais dès le mois d'avril, est élaboré un premier protocole éditorial auquel les éditeurs de Sens public, principalement des étudiants en littérature françaises (!), sont formés.
+dès le mois d'avril, est élaboré un premier protocole éditorial auquel les éditeurs de Sens public, principalement des étudiants en littérature françaises (!), sont formés.
 
 §§§§§SLIDEmoveDown§§§§§
 <!--  .slide: style="font-size:1.7rem"-->
@@ -258,7 +259,7 @@ Date:   Thu Jan 25 15:31:55 2018 -0500
     SP1293 : initialisation du dossier
 ```
 ===
-en janvier 2018, ...
+en janvier 2018, les étudiants sont formés au workflow git, et l'on ouvre un wiki qui va leur permettre de co-construire une base de connaissance sur la chaine.
 
 §§§§§SLIDEmoveDown§§§§§
 <!--  .slide: style="font-size:1.7rem"-->
@@ -280,18 +281,22 @@ en janvier 2018, ...
 ### 09/2018 - intégration de _Process_ dans le protocole
 <!-- .element style="color:orange" -->
 
+===
+en avril 2018, Stylo est présenté en version alpha au colloque Ecridil, et deux mois plus tard, nous intégrons l'outil dans le protocole éditorial de la revue Sens public. À cette occasion, marcello développe un simple script bash pour automatiser les exports de Stylo, qui sera ensuite hébergé sur un docker pour en faire un web-service de traitement.
 
+Finalement en septembre 2018, Process est intégré dans le protocole, cad utilisé par les éditeurs eux-mêmes.
 
 %%%%%%%%%%%%%%%%%%SECTIONmoveRight%%%%%%%%%%%%%%%%%%
 
 ## Modularité
 
 ===
-Ce que montre cet historique, c'est la modularité de la chaine.
+Ce que montre avant tout cet historique, c'est la modularité de la chaine, principe que l'on reprend du mémoire d'Antoine, modularité tant les formats utilisés, les outils qui implémentent ces formats, et les logiciels de traitements sont interchangeables.
+
 
 §§§§§SLIDEmoveDown§§§§§
 
-<i class="fa fa-arrow-right"></i> 3 modules principaux + modules techniques :
+<i class="fa fa-arrow-right"></i> 3 éléments principaux + modules techniques :
 
 <!-- .element: style="font-size:0.8em;" -->
 
@@ -324,12 +329,12 @@ Ce que montre cet historique, c'est la modularité de la chaine.
 <!-- .element: style="font-size:0.6em; width:35%; float:left;padding-left:2rem;border:1px,solid,white;" -->
 
 ===
-Je montre ici, les différents briques logicielles, les différents formats, les différents services qui sont articulés.
-Au fur et à mesure de la concpetion, nous avons pu remplacer un outil par un autre, nous avons pu améliorer ou optimiser tel ou tel aspect de la chaîne.
+Sans m'y attarder, voici les différents briques logicielles, les différents formats, les différents services qui sont articulés dans Stylo.
+Au fur et à mesure de la conception, nous avons pu remplacer un outil par un autre, nous avons pu améliorer ou optimiser tel ou tel aspect de la chaîne.
 
 Autant la chaîne que Stylo ou Process sont des outils et des protocoles encore en friche.
 
-De plus, ce que n'a pas montré cette chronologie, c'est l'enrichissement permanent depuis avril 2017 du modèle de données et de métadonnées des articles.
+Par ailleurs, ce que n'a pas montré cette chronologie, c'est l'enrichissement permanent depuis avril 2017 du modèle de données et de métadonnées des articles.
 
 §§§§§SLIDEmoveDown§§§§§
 <!-- .slide: data-background-image="graphics/log_template.png" data-background-size="contain"-->
@@ -350,8 +355,8 @@ Mais cette souplesse a bien entendu sa limite. Itérer sur les données ou sur l
 
 ===
 La preuve de concept initiale se ramifie au fil des enrichissements que nous intégrons au texte et aux métadonnées :
-- utilisation d'autorités (orcid, Rameau)
-- utilisation de services d'enrichissement (Isidore à la demande)
+- utilisation d'autorités (orcid, Rameau) dans les métadonnées
+- utilisation de services d'enrichissement (Isidore à la demande) pour qualifier les articles
 - [next slide]
 
 §§§§§SLIDEmoveDown§§§§§
@@ -373,7 +378,7 @@ Ce bricolage constant est important. Les éditeurs de la revue peuvent en témoi
 ===
 Dans leur critique des Humanités numériques, publié dans la revue Variations, Fabien Granjon et Christophe Magis consacre une partie conséquente de leur papier à cette double relation assumée qu'entretiennent les humanités numériques avec la praxis et la théorie. Les auteurs appellent à se méfier de l'épistémologie du faire, du doing, du making, du building, qui selon eux ne permet pas une distance consciente suffisante avec le monde pour en être critique.
 
-Il me semble au contraire que de tels bricolages, qui sont très certainement au coeur d'une démarche DH, favorise la réflexivité d'une part sur les techniques et les pratiques employées, et d'autre par sur le monde et le milieu technique dominant. Ces mains _dans_ (le cambouis ou le numérique) légitiment le discours _sur_ (le numérique).
+Il me semble au contraire que de tels bricolages, qui sont très certainement au coeur d'une démarche DH, favorise la réflexivité d'une part sur les techniques et les pratiques employées, et d'autre par sur le monde et le milieu technique dominant. Ces mains _dans_ (le cambouis ou le numérique) participent à légitimer le discours _sur_ (le numérique).
 
 
 %%%%%%%%%%%%%%%%%%SECTIONmoveRight%%%%%%%%%%%%%%%%%%
