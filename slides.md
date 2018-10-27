@@ -12,7 +12,7 @@
 
 ---
 
-Nicolas Sauret
+Nicolas Sauret - présentation: [nicolassauret.net/s_StyloCRIHN](http://nicolassauret.net/s_StyloCRIHN)
 
 <!-- .element: style="font-size:1.5rem" -->
 
