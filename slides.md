@@ -12,12 +12,12 @@
 
 ---
 
-Nicolas Sauret - présentation: [nicolassauret.net/s_StyloCRIHN](http://nicolassauret.net/s_StyloCRIHN)
+Nicolas Sauret - présentation: [nicolassauret.net/s_StyloNumerev](http://nicolassauret.net/s_StyloNumerev)
 
 <!-- .element: style="font-size:1.5rem" -->
 
-_« Repenser les humanités numériques / Thinking the Digital Humanities Anew »_  
-25-27 oct. 2018 | CRIHN, Montréal
+_Colloque international NumeRev_  
+19-21 juin 2019 | MSH-Sud, Montpellier
 
 <!-- .element: style="font-size:1.5rem" -->
 
@@ -61,20 +61,29 @@ Assumer cette réflexivité revient à consolider la légitimité des écrits et
 
 Ainsi, plus que pour toute autre institution, la recherche sur la chaîne de production de l’écrit scientifique constitue ensemble sa mission, sa raison d’être et la condition de sa survie.
 
-C’est ainsi, en tout cas, que nous considérerons l’institution, dans cette vision idéale et paradoxale d’une institution garante des écrits qu’elle assure en les stabilisant, les analysant et les interprétant, mais qui dans le même temps ne peut exister que dans la dynamique d’une remise en question de l’écrit, de sa chaîne de production et des techniques intellectuelles qui lui sont associées.
+C’est ainsi, en tout cas, que nous pourrons considérer l’institution, dans cette vision idéale et paradoxale d’une institution garante des écrits qu’elle assure en les stabilisant, les analysant et les interprétant, mais qui dans le même temps ne peut exister que dans la dynamique d’une remise en question de l’écrit, de sa chaîne de production et des techniques intellectuelles qui lui sont associées.
 
 Au moment-même où les pratiques des chercheurs se transforment et s'adaptent dans un écosystème disrupté, les institutions scientifiques ne peuvent pas abandonner aux GAFAM la réflexion sur les supports et les techniques de l'écriture et de la lecture.
+
+§§§§§SLIDEmoveDown§§§§§
+### Un slide sur la problématique de l'édition ?
+===
+
 
 
 
 %%%%%%%%%%%%%%%%%%SECTIONmoveRight%%%%%%%%%%%%%%%%%%
-<!-- .slide: data-background-image="graphics/stylo_facebook.png" data-background-size="contain" data-transition="slide-out"-->
+<!-- .slide: data-background-image="graphics/styloN_facebook.png" data-background-size="contain" data-transition="slide-out"-->
 <!-- .slide: class="hover" -->
 
 ## Qu'est-ce que Stylo ? <!-- .element: style="padding-top:0.8em"  -->
 ===
 
-Fondamentalement, Stylo est né de cette catastrophe, et de la conviction que, en tant qu'universitaire, il convenait de prendre autant soin des écrits que l'on étudiaient que de la chaine de production de l'écrit. Stylo est notre expérimentation, notre bricolage local. C'est sans doute aussi un peu notre cheval de Troie dans l'Université, ou peut-être plus modestement, au sein du département de Littérature de langues françaises. Et ça marche !
+Fondamentalement, Stylo est né de cette catastrophe, et de la conviction que, en tant qu'universitaire, il convenait de prendre autant soin des écrits que l'on étudiaient que de la chaine de production de l'écrit.
+
+Stylo est notre expérimentation, notre bricolage local. C'est sans doute aussi un peu notre cheval de Troie dans l'Université, avec l'ambition justement d'institutionnaliser certaines pratiques d'écriture et d'édition déjà émergentes dans la communauté des SHS.
+
+Et ça marche !
 
 
 
@@ -95,12 +104,14 @@ Stylo est à la fois un outil de rédaction de texte scientifique et un outil d'
 
 
 §§§§§SLIDEmoveDown§§§§§
-<!-- .slide: data-background-image="graphics/stylo_fullopen_marqued.png" data-background-size="contain" data-transition="slide-in"-->
+<!-- .slide: data-background-image="graphics/stylo_fullInterface_2019_cropped_marqued.png" data-background-size="contain" data-transition="slide-in"-->
 
 ===
-Je vous montre ici l'interface complète, où l'on retrouve un éditeur de métadonnées, un gestionnaire de références, capable de se synchroniser avec une collection zotero en ligne. Le corps de texte au centre,
+Je vous montre ici l'interface complète, où l'on retrouve un éditeur de métadonnées, qui vient modifier le fichier yaml associé au document, un gestionnaire de références qui vient modifier le fichier bibtex assoié. Ce gestionnaire est capable de se synchroniser avec une collection zotero en ligne.
 
-Ainsi que plusieurs modules outillant nos trois sources : ajoutant des fonctionnalités de versionning, un sommaire, des statistiques sur le document et non visible ici un comparateur de version.
+On retrouve le corps de texte au centre,
+
+Ainsi que plusieurs modules outillant nos trois sources : ajoutant des fonctionnalités de versionning, la table des matières du corps de texte, des statistiques sur le document et non visible ici un comparateur de version.
 
 §§§§§SLIDEmoveDown§§§§§
 
@@ -120,16 +131,20 @@ the software that interprets them.
 
 
 ===
-Stylo, c'est le choix du low tech, (et en passant du logiciel libre, les deux ne sont pas corrélés.)
+Stylo, c'est le choix du low tech, (et en passant, le choix du logiciel libre, les deux ne sont pas corrélés.)
 
 Ainsi, les trois formats de fichier sont éditables en mode texte brut ou _plain text_. C'est un aspect important car c'est une excellente garantie de pérennité, nos sources sont et seront lisibles par toutes les machines. La seule interprétation machinique qui en est fait lors de leur lecture brute est éventuellement une coloration syntaxique permettant de mettre en évidence les syntaxes respectivent du markdown, du yaml et du bibtex.
 
 
 <!-- Témoigne de la convergence des inscriptions, qu'elle soit programmative ou discursive. Certains ne font d'ailleurs aucune différence entre ces deux inscriptions, tant l'écriture demeure performative. -->
 
-On aurait pu encapsuler ces trois fichiers dans un format .stylo ou .stl par exemple. Pourtant, maintenir la transparence sur ces trois fichiers sources nous semblent être davantage porteur de pérennité, de modularité, et de littératie, invitant les usagers à exploiter eux-mêmes les sources, à customiser les exports en jouant avec les paramètres et les filtres de pandoc, ou encore à publier les sources en ligne à travers un moteur de sites statiques comme Jekyll ou Hugo.
+On aurait pu encapsuler ces trois fichiers dans un format .stylo par exemple, comme le font d'autres initiatives similaires. Pourtant, maintenir la transparence sur ces trois fichiers sources nous semblent être davantage porteur de pérennité, de modularité, et de littératie, invitant les usagers à exploiter eux-mêmes les sources, à customiser les exports en jouant avec les paramètres et les filtres de pandoc, ou encore à publier en ligne directement les sources à travers un moteur de sites statiques comme Jekyll ou Hugo.
 
-Ainsi, si Stylo facilite et rend plus accessible le process d'édition, de versionning, d'indexation, de conversion vers les formats d'usages, le choix a bien été de conserver un accès direct à la matérialité text/plain des fichiers markdown, bibtex et yaml. Outre la question de la pérennité des données, ce principe de ne pas masquer les formats et les fichiers va dans le sens d'une technique ouverte, c'est-à-dire visible. Cette transparence du medium est un premier pas pour la transmission de cette littératie du numérique (savoir-lire-écrire-et-structurer), tout le contraire finalement des formats propriétaires fermés.
+Ainsi, si Stylo facilite et rend plus accessible le process d'édition, de versionning, d'indexation, de conversion vers les formats d'usages, le choix a bien été de conserver un accès direct à la matérialité text/plain des fichiers markdown, bibtex et yaml.
+
+Outre la question de la pérennité des données, ce principe de ne pas masquer les formats et les fichiers va dans le sens d'une technique ouverte, c'est-à-dire visible. Cela va à l'encontre de cette tendance à l'applification qui cherche certe, en adoptant les codes ergonomiques des applications mobiles, à réduire la complexité des interfaces, mais qui n'aboutit en retour qu'à réduire la capacité des utilisateurs.
+
+La transparence du medium porté par Stylo est un premier pas pour la transmission de cette littératie du numérique (savoir-lire-écrire-et-structurer), tout le contraire finalement des formats propriétaires fermés.
 
 <!-- , ou pire de l'applification ou appification de nos interfaces :
 
@@ -147,7 +162,9 @@ Quand je lis "to reduce user-end complexity", j'entends "to reduce user-end capa
 ===
 Stylo n'invente rien, nous n'avons fait qu'exploiter et mettre ensemble des principes et des outils existants, nous avons bricolé une interface simple agenceant les différents formats et outils.
 
-Et chacune de nos erreurs de bricolage sont des marches d'apprentissage. Petit clin d'oeil à Margot Mellet qui a courageusement édité la traduction de l'ouvrage de David Lankes, présentée jeudi aux Ateliers.
+Et chacune de nos erreurs de bricolage sont des marches d'apprentissage.
+
+<!-- Petit clin d'oeil à Margot Mellet qui a courageusement édité la traduction de l'ouvrage de David Lankes, présentée jeudi aux Ateliers. -->
 
 §§§§§SLIDEmoveDown§§§§§
 <!-- .slide: data-transition="fade-in"-->
@@ -282,7 +299,9 @@ en janvier 2018, les étudiants sont formés au workflow git, et l'on ouvre un w
 <!-- .element style="color:orange" -->
 
 ===
-en avril 2018, Stylo est présenté en version alpha au colloque Ecridil, et deux mois plus tard, nous intégrons l'outil dans le protocole éditorial de la revue Sens public. À cette occasion, marcello développe un simple script bash pour automatiser les exports de Stylo, qui sera ensuite hébergé sur un docker pour en faire un web-service de traitement.
+Après presque 36 mois de développements compliqués, en collaboration avec l'équipe développant Substance et le projet Texture soutenu par PKP, le projet initial de Stylo change radicalement de stratégie. Nous lui faisons adopter les principes de la chaine éditoriale basée sur Pandoc.
+
+En avril 2018, après seulement 8 mois de travail, Stylo est présenté en version alpha au colloque Ecridil, et deux mois plus tard, nous intégrons l'outil dans le protocole éditorial de la revue Sens public. À cette occasion, Marcello Vitali-Rosati développe un premier script bash pour automatiser les exports de Stylo, dans un web-service de traitement dédié: Process.
 
 Finalement en septembre 2018, Process est intégré dans le protocole, cad utilisé par les éditeurs eux-mêmes.
 
@@ -291,7 +310,7 @@ Finalement en septembre 2018, Process est intégré dans le protocole, cad utili
 ## Modularité
 
 ===
-Ce que montre avant tout cet historique, c'est la modularité de la chaine, principe que l'on reprend du mémoire d'Antoine, modularité tant les formats utilisés, les outils qui implémentent ces formats, et les logiciels de traitements sont interchangeables.
+Ce que montre avant tout cet historique, c'est la modularité de la chaine, principe que l'on reprend des travaux d'Antoine Fauchié, modularité tant les formats utilisés, les outils qui implémentent ces formats, et les logiciels de traitements sont interchangeables.
 
 
 §§§§§SLIDEmoveDown§§§§§
@@ -323,7 +342,11 @@ Ce que montre avant tout cet historique, c'est la modularité de la chaine, prin
 2. **Versioning**
   - git <!-- .element: style="color:Darkorange;" -->
   - comparateur de versions
-3. **API**
+3. **Plateforme**
+  - MongoDB (bdd)
+  - GraphQL <!-- .element: style="color:Darkorange;" --> (backend)
+  - ReactJS (frontend)
+4. **API**
 
 
 <!-- .element: style="font-size:0.6em; width:35%; float:left;padding-left:2rem;border:1px,solid,white;" -->
@@ -345,9 +368,11 @@ Le choix du markdown/yaml et du html au détriment peut-être d'un modèle XML a
 
 Cela nous a permis de démarrer très vite la production d'articles, d'identifier des cas de figure particulier, et de réintégrer dans la chaine : de nouvelles données, nouveaux champs et nouvelles balises.
 
-La chaine md+yaml+bib existe depuis bientôt 18 mois, 18 mois pendant lesquels les champs du yaml n'ont cessés d'être mis à jour au fur et à mesure des besoins identifiés. Stylo a largement bénéficié de ces itérations pendant sa conception.
+La chaine md+yaml+bib existe depuis plus de 2 ans, 27 mois pendant lesquels les champs du yaml n'ont cessés d'être mis à jour au fur et à mesure des besoins identifiés. Stylo a largement bénéficié de ces itérations pendant sa conception.
 
-Mais cette souplesse a bien entendu sa limite. Itérer sur les données ou sur les templates suppose de rééditer, ou de mettre à jour, les articles antérieurs à l'itération et de relancer les conversions. Encore aujourd'hui, presque 18 mois après la mise en oeuvre de la chaîne, et 5 mois après son adoption par l'équipe de Sens public, nous continuons d'améliorer certaines syntaxes, d'enrichir les templates, voir de créer des filtres ad-hoc pour gérer les multiples cas de figures.
+Au début de l'année 2019, nous avons procédé à une refonte complète de l'outil, tant sur le backend et la gestion de la base de données, que sur le frontend en redéveloppant entièrement l'application. Nous en avons profité pour génériciser les templates et le modèle de données des articles.
+
+Cette souplesse a bien entendu sa limite. Itérer sur les données ou sur les templates suppose de rééditer, ou de mettre à jour, les articles antérieurs à l'itération et de relancer les conversions. Encore aujourd'hui, 2 ans après la mise en production de la chaîne, et 1 an après l'adoption de Stylo par l'équipe de Sens public, nous continuons d'améliorer certaines syntaxes, d'enrichir les templates, voir de créer des filtres ad-hoc pour gérer les multiples cas de figures.
 
 §§§§§SLIDEmoveDown§§§§§
 
@@ -355,6 +380,7 @@ Mais cette souplesse a bien entendu sa limite. Itérer sur les données ou sur l
 
 ===
 La preuve de concept initiale se ramifie au fil des enrichissements que nous intégrons au texte et aux métadonnées :
+
 - utilisation d'autorités (orcid, Rameau) dans les métadonnées
 - utilisation de services d'enrichissement (Isidore à la demande) pour qualifier les articles
 - [next slide]
@@ -397,7 +423,7 @@ Cela s'entend. Pourtant, du docx très souvent mal stylé par l'auteur, comporta
 §§§§§SLIDEmoveDown§§§§§
 ## Dépossession de l'auteur
 ===
-Ce que l'on observe le long d'un tel processus, c'est que l'auteur est progressivement dépossédé de son texte, dans le mesure où il est rapidement incapable d'intervenir dans ces multiples processus d'interprétation. Pour être plus précis, on lui demande le plus souvent d'intervenir dans la marge des épreuves successives, sur la base de ce qu'il voit, ce qui est visible, avec une capacité d'intervention réduite voir nulle.
+Ce que l'on observe le long d'un tel processus, c'est que l'auteur est progressivement dépossédé de son texte, dans la mesure où il est rapidement incapable d'intervenir dans ces multiples processus d'interprétation. Pour être plus précis, on lui demande le plus souvent d'intervenir dans la marge des épreuves successives, sur la base de ce qu'il voit, ce qui est visible, avec une capacité d'intervention réduite voir nulle.
 
 §§§§§SLIDEmoveDown§§§§§
 ## Dépossession de l'éditeur
@@ -454,23 +480,92 @@ Dans cette vision, l’écriture ne se résume plus seulement à écrire. Ecrire
 
 Cette culture n'est rien d'autre que la littératie numérique qui ajoute au savoir-lire-et-écrire la maîtrise du milieu d’écriture, une capacité à inscrire l’espace autant qu’à le structurer. Il s'agit de savoir autant évoluer dans cet environnement (l'habiter) que de le faire évoluer (le designer).
 
+
+§§§§§SLIDEmoveDown§§§§§
+<!-- .slide: data-background-image="graphics/revue20-site.png" data-background-size="contain"-->
+
+
+===
+
+On l'a vu, l'université se doit de mener une réflexion sur les pratiques et les outils d'écritures et de lecture.
+
+C'est dans ce sens qu'a été lancé le projet Revue 2.0, associant des éditeurs (6 revues pilotes), les deux diffuseurs principaux de l'édition scientifique francophone en SHS (Erudit et Open Editions) et Huma-num, à travers notamment le service Isidore, comme agrégateur et moteur de recherche.
+
+L'objectif de ce projet sur trois ans, sera double : proposer un modèle épistémologique pour la revue savante à l'ère du numérique, et élaborer et expérimenter des modèles éditoriaux exploitant tous les potentiels de l'environnement numérique.
+
+§§§§§SLIDEmoveDown§§§§§
+<!-- .slide: data-background-image="./img/modelisationItineraires.png" data-background-size="contain" -->
+<!--  .slide: class="hover"-->
+
+
+### Phase 1: Observation des pratiques éditoriales
+
+Méthodologie:
+
+-  récolte de documents
+-  questionnaire
+-  entretiens
+-  génétique d'un article
+
+
+<i class="fa fa-arrow-right"></i> modélisation du processus éditorial
+
+
+===
+La première phase du projet a consisté en une analyse des pratiques éditoriales auprès de 6 revues partenaires, selon une méthodologie articulant :
+
+1. la récolte de tous les documents produits ou utilisés pendant le processus éditorial de la revue
+2. un questionnaire cherchant à préciser d'un point de vue technique et pratique quels sont les acteurs de ce processus, tant les acteurs humains que les dispositifs et outils utilisés.
+3. des entretiens avec les secretaires de rédaction et les directeurs et directrices de revue, destiné à identifier les problématiques des revues, à pointer les éléments saillants en terme d'autorité et de légitimation.
+4. enfin, à partir des données obtenues, l'établissement d'une génétique d'un article, cad de son cycle de vie, depuis la rédaction et la soumission d'un article par un auteur jusqu'à sa diffusion.
+
+In-finé, nous avons cherché à modéliser précisemment le processus éditorial de chaque revue, et de comprendre quels sont les tenants du modèle éditorial des revues SHS :  quelles sont les canaux de communication, quels sont les artefacts techniques et éditoriaux producteurs d'autorité ? En d'autres termes qui légitime quoi et comment ?
+
+§§§§§SLIDEmoveDown§§§§§
+
+### légitimation
+
+===
+
+Beaucoup de sujets ont été abordés lors de cette première année de travail qui fera l'objet de plusieurs publications, mais je retiens entre autres choses le chantier encore largement ouvert de l'émancipation des professionnels de la communication scientifique en matière d'éditorialisation et d'édition en réseau. En matière d'ouverture aussi, pas tant des contenus, puisque la raison et l'open access finissent toujours par l'emporter, mais en matière d'ouverture des process, notamment celui de la recherche en train de se faire, ou du bricolage en train de faire.
+
+Pendant nos échanges avec les éditeurs, s'est exprimé une culture de l'intime, de l'échange humain, comme résistance à l'automatisation, à la massification (des contenus, des lectorats), et défendant ainsi l'excellence des idées. Cette perspective peut être louable, mais elle s'appuie sur une certaine conception de la scientificité, l'évaluation par les pairs en double-aveugle.
+
+Pourtant, tous les entretiens que nous avons mené avec les directeurs et directrices et les secrétaires de rédactions des revues nous ont amené à une même conclusion : les modalités de la légitimation sont diverses, elles reposent systématiquement sur une négociation constante des règles et des protocoles dont se définissent les revues et les comités éditoriaux. Ainsi, d'une revue à une autre, les évaluations peuvent être strictement suivies, ou intégrées comme simple élément de décision, ou encore juste consultées à titre indicatives dans les discussions éditoriales, en toute connaissance de l'identité des évaluateurs.
+
 §§§§§SLIDEmoveDown§§§§§
 
 ### vers une nouvelle _epistémé_
 
 ===
 
-On l'a vu, l'université se doit de mener une réflexion sur les pratiques et les outils d'écritures et de lecture.
+Autrement dit, la véritable légitimation se trouve ailleurs : elle se trouve dans le réseau de relations humaines et intellectuelles qui constituent la communauté d'une revue, et plus largement la communauté scientifique. En particulier en sciences humaines, cette communauté fonctionne sur l'échange des idées. Et plus ce réseau d'échange sera dense et fluide, plus les idées y circulant seront légitimées.
 
-C'est dans ce sens qu'a été lancé le projet Revue 2.0, associant des éditeurs (8 revues pilotes), les deux diffuseurs principaux de l'édition scientifique francophone en SHS (Erudit et Open Editions) et ce qu'on a appelé dans ce projet un agrégateur, Huma-num. L'objectif de ce projet sur trois ans, sera double : proposer un modèle épistémologique pour la revue savante à l'ère du numérique, et élaborer et expérimenter des modèles éditoriaux exploitant tous les potentiels de l'environnement numérique.
+Il est temps donc que ces conversations qui s'expriment par word interposés dans le vase clos du workflow éditorial soient ouvertes au grand jour. Pour le meilleur.
 
-Beaucoup de sujets ont été abordés lors de nos premiers ateliers de travail, mais je retiens entre autres choses le chantier encore largement ouvert de l'émancipation des professionnels de la communication scientifique en matière d'éditorialisation et d'édition en réseau. En matière d'ouverture aussi, pas tant des contenus, puisque la raison et l'open access finissent toujours par l'emporter, mais en matière d'ouverture des process, notamment celui de la recherche en train de se faire, ou du bricolage en train de faire.
+Ces résistances de la part des praticiens sont pourtant bien compréhensibles. Elles sont celles du modèle épistémologique précédent, préexistant à l'environnement numérique, façonné sur plusieurs siècles. Dans cette opposition assez classique de l'ancien et du nouveau, est en train de se rejouer la résistance des scriptoriums face aux presses. Opposition classique, mais quelque peu réactionnaire. Car, face aux gouvernances algorithmiques très justement décriées, ouvrir le process de la pensée et ouvrir les contenus à l'appropriation et à l'interprétation grâce à des dispositifs numériques est une forme de résistance autrement plus efficace que le papier.
 
-Pendant nos échanges avec les éditeurs, s'est exprimé une culture de l'intime, de l'échange humain, qui prétend vouloir ainsi résister à l'automatisation, à la massification (des contenus, des lectorats), et défendant à demi-mots l'excellence des idées, excellence légitimée sous couvert d'une certaine conception de la scientificité, conception en double-aveugle, autrement dit trouble. Je me sens autorisé à dire de telles choses ici parce je le pense d'une part, mais surtout parce que ce colloque s'est ouvert avec le prix JC Guédon, héros local et hérault du libre accès, prix remis à un article important car insistant sur le fait que d'autres formes d'évaluation sont souhaitables.
+§§§§§SLIDEmoveDown§§§§§
+<!-- .slide: data-background-image="graphics/source_html.png" data-background-size="contain"-->
+<!--  .slide: class="hover"-->
 
-En particulier en Sciences humaines, ou le boulot des chercheurs, fondamentalement, c'est de discuter des idées. En acceptant le fait que toute idée est discutable. Il est temps donc que ces conversations qui s'exprime par word interposés dans le vase clos du workflow éditorial soient ouvertes au grand jour. Pour le meilleur.
+### Interopérabilité
 
-Ces résistances de la part des praticiens sont pourtant bien compréhensibles. Elles sont celles du modèle épistémologique précédent, préexistant à l'environnement numérique, façonné sur plusieurs siècles. Dans cette opposition assez classique de l'ancien et du nouveau, est en train de se rejouer la résistance des scriptoriums face aux presses. Opposition classique, mais quelque peu réactionnaire. Car, face aux gouvernances algorithmiques très justement décriées, ouvrir le process de la pensée et ouvrir les contenus à l'appropriation et à l'interprétation grâce à des dispositifs numériques est une forme de résistance autrement plus efficace que le papier. Ainsi, si les acteurs et les actrices des revues ont bien un rôle à jouer, c'est celui de co-concevoir, de co-designer de nouveaux dispositifs numériques pour l'appropriation, la circulation, et la  conversation des connaissances.
+===
+
+Il me semble que c'est également, dans la fluidification de la circulation, que peut se résoudre un des principaux écueils lié à l'interopérabilité des connaissances : cette tension entre l'hétérogénéité des approches et des données, avec l'homogénéisation des vocabulaires d'indexation, nécessaire à l'interconnexion des bases de connaissances entre elles.  
+
+comment assurer une certaine diversité de vocabulaire, de description, mais aussi de modèle? Chaque discipline, chaque laboratoire, chaque producteur de données ne devraient-ils pouvoir développer ses propres modèles pour décrire le monde? Peut-on vraiment sacrifier la richesse du langage naturel sur l'autel de la manipulabilité et de l'interopérabilité?
+
+Mon hypothèse ici sera de parier sur des éditorialisations favorisant les dynamiques de circulation et d'appropriation des données, aussi pauvres ou erronées soient ces dernières. Investir sur des dispositifs de conversation sur et avec les données est susceptible de produire davantage de richesse, de diversité et de nouveauté. C'est un peu la stratégie proposée par Isidore.science en ouvrant [un service de veille ou de collection](https://humanum.hypotheses.org/5320), qui rappelle à nouveau la culture anthologique, et l'idée que l'appropriation des ressources embarque toujours une part de réécriture et donc d'interprétation.
+
+
+§§§§§SLIDEmoveDown§§§§§
+
+### Fonction éditoriale
+
+===
+Ainsi, si les acteurs et les actrices des revues ont bien un rôle à jouer, c'est celui de co-concevoir, de co-designer de nouveaux dispositifs numériques pour l'appropriation, la circulation, et la  conversation des connaissances.
 
 C'est en celà, et en celà seulement, que cette fameuse fonction éditoriale, cad leur autorité, ou leur raison d'être, pourra se renouveller et remonter quelques marches de médiation dans un écosystème qui n'est pas désintermédié, mais au contraire fortement réintermédié par quelques acteurs silico-vallonnés, qui ont bien saisi eux le changement de paradigme.
 
