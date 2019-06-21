@@ -10,6 +10,7 @@
 
 &nbsp;
 Nicolas Sauret et Marcello Vitali-Rosati
+
 ---
 
 présentation: [nicolassauret.net/s_StyloNumerev](http://nicolassauret.net/s_StyloNumerev)
@@ -25,7 +26,9 @@ _Colloque international NumeRev_
 
 ===
 
+Bonjour à tous, Marcello Vitali Rosati se joint à moi pour remercier les organisateurs de l'invitation, et pour s'excuser d'intervenir à distance et de ne pas avoir pu suivre l'ensemble des débats.
 
+Je vais vous présenter Stylo, un éditeur de texte conçu et développé à la Chaire de recherche sur les écritures numériques que dirige Marcello Vitali Rosati à l'Université de Montréal dans le département des littératures de langue française.
 
 §§§§§SLIDEmoveDown§§§§§
 <!-- .slide: data-background-image="graphics/equipeecrinum.png" data-background-size="contain" -->
@@ -33,6 +36,9 @@ _Colloque international NumeRev_
 
 ## un travail d'équipe <!-- .element: style="padding-top:0.8em" -->
 
+===
+
+Le développement de Stylo est évidemment le fruit d'un travail d'équipe, dont voici les joyeux membres. Je tiens à citer tout particulièrement Arthur Juchereau et Servanne Monjour qui ont embarqué dès le début dans cette aventure.
 
 %%%%%%%%%%%%%%%%%%SECTIONmoveRight%%%%%%%%%%%%%%%%%%
 ### Pourquoi
@@ -40,9 +46,9 @@ _Colloque international NumeRev_
 ### à l'université?
 
 ===
-Je commence avec une question récurrente, pourquoi tant de word à l'université. L'outil d'écriture majoritaire des universités se trouve en effet être Word. On le retrouve partout, les formulaires d'inscriptions sont en Word, les plans de cours sont en Word, les prises de notes sont en Word, les étudiants écrivent leur dissertation sous Word, interligne double, les chercheurs écrivent leurs articles sous word, les éditeurs éditent les articles sous word. On trouve même des thèses en word.
+Je commence avec une question récurrente, pourquoi tant de word à l'université. L'outil d'écriture majoritaire des universités se trouve en effet être Microsoft Word. On le retrouve partout, les formulaires d'inscriptions sont en Word, les plans de cours sont en Word, les prises de notes sont en Word, les étudiants écrivent leur dissertation sous Word, interligne double, les chercheurs écrivent leurs articles sous word, les éditeurs éditent les articles sous word. On trouve même des thèses en word.
 
-Vous comprenez bien que dans ma question initiale, la catastrophe n'est pas Word, mais bien l'Université.
+Vous comprenez bien que dans cette question initiale, la catastrophe n'est pas Word, mais bien l'Université.
 
 §§§§§SLIDEmoveDown§§§§§
 ### question institutionnelle
@@ -364,7 +370,7 @@ Cela nous a permis de démarrer très vite la production d'articles, d'identifie
 
 La chaine md+yaml+bib existe depuis plus de 2 ans, 27 mois pendant lesquels les champs du yaml n'ont cessés d'être mis à jour au fur et à mesure des besoins identifiés. Stylo a largement bénéficié de ces itérations pendant sa conception.
 
-Au début de l'année 2019, nous avons procédé à une refonte complète de l'outil, tant sur le backend et la gestion de la base de données, que sur le frontend en redéveloppant entièrement l'application. Nous en avons profité pour génériciser les templates et le modèle de données des articles.
+Plus récemment, au début de l'année, nous avons procédé à une refonte complète de l'outil, tant sur le backend et la gestion de la base de données, que sur le frontend en redéveloppant entièrement l'application. Nous en avons profité pour génériciser les templates et le modèle de données des articles.
 
 <!-- Cette souplesse a bien entendu sa limite. Itérer sur les données ou sur les templates suppose de rééditer, ou de mettre à jour, les articles antérieurs à l'itération et de relancer les conversions. Encore aujourd'hui, 2 ans après la mise en production de la chaîne, et 1 an après l'adoption de Stylo par l'équipe de Sens public, nous continuons d'améliorer certaines syntaxes, d'enrichir les templates, voir de créer des filtres ad-hoc pour gérer les multiples cas de figures. -->
 
@@ -373,7 +379,7 @@ Au début de l'année 2019, nous avons procédé à une refonte complète de l'o
 ![enrich editorial](graphics/enrich_editorial.png) <!-- .element: width="90%" -->
 
 ===
-Ainsi, la preuve de concept initiale se ramifie au fil des enrichissements que nous intégrons au texte et aux métadonnées :
+Ainsi, la preuve de concept initiale s'est ramifiée au fil des enrichissements que nous intégrons au texte et aux métadonnées :
 
 - utilisation d'autorités (orcid, Rameau) dans les métadonnées
 - utilisation de services d'enrichissement (Isidore à la demande) pour qualifier les articles
