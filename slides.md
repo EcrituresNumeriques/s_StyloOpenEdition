@@ -9,10 +9,10 @@
 > écrire = écrire + structurer.
 
 &nbsp;
-
+Nicolas Sauret et Marcello Vitali-Rosati
 ---
 
-Nicolas Sauret - présentation: [nicolassauret.net/s_StyloNumerev](http://nicolassauret.net/s_StyloNumerev)
+présentation: [nicolassauret.net/s_StyloNumerev](http://nicolassauret.net/s_StyloNumerev)
 
 <!-- .element: style="font-size:1.5rem" -->
 
@@ -64,12 +64,6 @@ Ainsi, plus que pour toute autre institution, la recherche sur la chaîne de pro
 C’est ainsi, en tout cas, que nous pourrons considérer l’institution, dans cette vision idéale et paradoxale d’une institution garante des écrits qu’elle assure en les stabilisant, les analysant et les interprétant, mais qui dans le même temps ne peut exister que dans la dynamique d’une remise en question de l’écrit, de sa chaîne de production et des techniques intellectuelles qui lui sont associées.
 
 Au moment-même où les pratiques des chercheurs se transforment et s'adaptent dans un écosystème disrupté, les institutions scientifiques ne peuvent pas abandonner aux GAFAM la réflexion sur les supports et les techniques de l'écriture et de la lecture.
-
-§§§§§SLIDEmoveDown§§§§§
-### Un slide sur la problématique de l'édition ?
-===
-
-
 
 
 %%%%%%%%%%%%%%%%%%SECTIONmoveRight%%%%%%%%%%%%%%%%%%
@@ -372,14 +366,14 @@ La chaine md+yaml+bib existe depuis plus de 2 ans, 27 mois pendant lesquels les 
 
 Au début de l'année 2019, nous avons procédé à une refonte complète de l'outil, tant sur le backend et la gestion de la base de données, que sur le frontend en redéveloppant entièrement l'application. Nous en avons profité pour génériciser les templates et le modèle de données des articles.
 
-Cette souplesse a bien entendu sa limite. Itérer sur les données ou sur les templates suppose de rééditer, ou de mettre à jour, les articles antérieurs à l'itération et de relancer les conversions. Encore aujourd'hui, 2 ans après la mise en production de la chaîne, et 1 an après l'adoption de Stylo par l'équipe de Sens public, nous continuons d'améliorer certaines syntaxes, d'enrichir les templates, voir de créer des filtres ad-hoc pour gérer les multiples cas de figures.
+<!-- Cette souplesse a bien entendu sa limite. Itérer sur les données ou sur les templates suppose de rééditer, ou de mettre à jour, les articles antérieurs à l'itération et de relancer les conversions. Encore aujourd'hui, 2 ans après la mise en production de la chaîne, et 1 an après l'adoption de Stylo par l'équipe de Sens public, nous continuons d'améliorer certaines syntaxes, d'enrichir les templates, voir de créer des filtres ad-hoc pour gérer les multiples cas de figures. -->
 
 §§§§§SLIDEmoveDown§§§§§
 
 ![enrich editorial](graphics/enrich_editorial.png) <!-- .element: width="90%" -->
 
 ===
-La preuve de concept initiale se ramifie au fil des enrichissements que nous intégrons au texte et aux métadonnées :
+Ainsi, la preuve de concept initiale se ramifie au fil des enrichissements que nous intégrons au texte et aux métadonnées :
 
 - utilisation d'autorités (orcid, Rameau) dans les métadonnées
 - utilisation de services d'enrichissement (Isidore à la demande) pour qualifier les articles
@@ -439,13 +433,14 @@ On peut alors considérer que l'éditeur a capitulé sur sa fonction d'interméd
 
 ===
 
-Quid de Stylo ? quid de la chaîne éditoriale de la revue Sens public ? Actuellement Sens public est l'unique revue à livrer à Erudit, diffuseur des revues scientifiques québécoises, ses articles, métadonnées et corps de texte compris, dans le format d'archivage et de diffusion d'Erudit. Toutes les autres revues laissent au diffuseur le soin de structurer et de formater leurs contenus.
+Quid de Stylo ? quid de la chaîne éditoriale de la revue Sens public ? [NEXT SLIDE] Actuellement Sens public est l'unique revue à livrer à Erudit, diffuseur des revues scientifiques québécoises, ses articles, métadonnées et corps de texte compris, dans le format d'archivage et de diffusion d'Erudit. Toutes les autres revues laissent au diffuseur le soin de structurer et de formater leurs contenus.
 
-La situation n'est pas aussi problématique en France où Open Editions a mis en place des dynamiques vertueuses de formation et de formatage des contenus.
+Il est vrai que la situation n'est pas aussi problématique en France où Open Editions a mis en place des dynamiques vertueuses de formation à la structuration des contenus.
 
-On parle de professionalisation de l'édition, mais a-t-on vraiment des éditeurs professionnels ? on peut trouver très problématique le fait que l'éditeur ne maitrise pas la facon dont son travail existera culturellement, socialement, mais aussi techniquement dans un environnement dépendant de plus en plus des données liées au texte.
+Mais puisque faire exister un texte dans l'environnement numérique suppose d'exposer des données suffisament riches et pertinentes pour que les contenus soient indexées par les moteur de recherche, on peut trouver très problématique le fait que l'éditeur ne maitrise pas la facon dont son travail existera culturellement, socialement, mais aussi techniquement dans un environnement dépendant de plus en plus des données liées au texte.
 
-Faire exister un texte dans l'environnement numérique suppose d'exposer des données suffisament riches et pertinentes pour que les contenus soient indexées par les moteur de recherche.
+On parle de professionalisation de l'édition, mais a-t-on vraiment des éditeurs professionnels ?
+
 
 §§§§§SLIDEmoveDown§§§§§
 <!-- .slide: data-transition="fade-in" -->
@@ -453,14 +448,13 @@ Faire exister un texte dans l'environnement numérique suppose d'exposer des don
 
 ===
 
-Quid de Stylo ? quid de la chaîne éditoriale de la revue Sens public ? Actuellement Sens public est l'unique revue à livrer à Erudit, diffuseur des revues scientifiques québécoises, ses articles, métadonnées et corps de texte compris, dans le format d'archivage et de diffusion d'Erudit. Toutes les autres revues laissent au diffuseur le soin de structurer et de formater leurs contenus.
+Quid de Stylo ? quid de la chaîne éditoriale de la revue Sens public ? [NEXT SLIDE] Actuellement Sens public est l'unique revue à livrer à Erudit, diffuseur des revues scientifiques québécoises, ses articles, métadonnées et corps de texte compris, dans le format d'archivage et de diffusion d'Erudit. Toutes les autres revues laissent au diffuseur le soin de structurer et de formater leurs contenus.
 
-La situation n'est pas aussi problématique en France où Open Editions a mis en place des dynamiques vertueuses de formation et de formatage des contenus.
+Il est vrai que la situation n'est pas aussi problématique en France où Open Editions a mis en place des dynamiques vertueuses de formation à la structuration des contenus.
 
+Mais puisque faire exister un texte dans l'environnement numérique suppose d'exposer des données suffisament riches et pertinentes pour que les contenus soient indexées par les moteur de recherche, on peut trouver très problématique le fait que l'éditeur ne maitrise pas la facon dont son travail existera culturellement, socialement, mais aussi techniquement dans un environnement dépendant de plus en plus des données liées au texte.
 
-On parle de professionalisation de l'édition, mais a-t-on vraiment des éditeurs professionnels ? on peut trouver très problématique le fait que l'éditeur ne maitrise pas la facon dont son travail existera culturellement, socialement, mais aussi techniquement dans un environnement dépendant de plus en plus des données liées au texte.
-
-Faire exister un texte dans l'environnement numérique suppose d'exposer des données suffisament riches et pertinentes pour que les contenus soient indexées par les moteur de recherche.
+On parle de professionalisation de l'édition, mais a-t-on vraiment des éditeurs professionnels ?
 
 %%%%%%%%%%%%%%%%%%SECTIONmoveRight%%%%%%%%%%%%%%%%%%
 <!-- .slide: data-background-image="graphics/network_master.png" data-background-size="contain"-->
@@ -545,19 +539,6 @@ Il est temps donc que ces conversations qui s'expriment par word interposés dan
 
 Ces résistances de la part des praticiens sont pourtant bien compréhensibles. Elles sont celles du modèle épistémologique précédent, préexistant à l'environnement numérique, façonné sur plusieurs siècles. Dans cette opposition assez classique de l'ancien et du nouveau, est en train de se rejouer la résistance des scriptoriums face aux presses. Opposition classique, mais quelque peu réactionnaire. Car, face aux gouvernances algorithmiques très justement décriées, ouvrir le process de la pensée et ouvrir les contenus à l'appropriation et à l'interprétation grâce à des dispositifs numériques est une forme de résistance autrement plus efficace que le papier.
 
-§§§§§SLIDEmoveDown§§§§§
-<!-- .slide: data-background-image="graphics/source_html.png" data-background-size="contain"-->
-<!--  .slide: class="hover"-->
-
-### Interopérabilité
-
-===
-
-Il me semble que c'est également, dans la fluidification de la circulation, que peut se résoudre un des principaux écueils lié à l'interopérabilité des connaissances : cette tension entre l'hétérogénéité des approches et des données, avec l'homogénéisation des vocabulaires d'indexation, nécessaire à l'interconnexion des bases de connaissances entre elles.  
-
-comment assurer une certaine diversité de vocabulaire, de description, mais aussi de modèle? Chaque discipline, chaque laboratoire, chaque producteur de données ne devraient-ils pouvoir développer ses propres modèles pour décrire le monde? Peut-on vraiment sacrifier la richesse du langage naturel sur l'autel de la manipulabilité et de l'interopérabilité?
-
-Mon hypothèse ici sera de parier sur des éditorialisations favorisant les dynamiques de circulation et d'appropriation des données, aussi pauvres ou erronées soient ces dernières. Investir sur des dispositifs de conversation sur et avec les données est susceptible de produire davantage de richesse, de diversité et de nouveauté. C'est un peu la stratégie proposée par Isidore.science en ouvrant [un service de veille ou de collection](https://humanum.hypotheses.org/5320), qui rappelle à nouveau la culture anthologique, et l'idée que l'appropriation des ressources embarque toujours une part de réécriture et donc d'interprétation.
 
 
 §§§§§SLIDEmoveDown§§§§§
@@ -565,7 +546,7 @@ Mon hypothèse ici sera de parier sur des éditorialisations favorisant les dyna
 ### Fonction éditoriale
 
 ===
-Ainsi, si les acteurs et les actrices des revues ont bien un rôle à jouer, c'est celui de co-concevoir, de co-designer de nouveaux dispositifs numériques pour l'appropriation, la circulation, et la  conversation des connaissances.
+Ainsi, et c'est ma conclusion, si les acteurs et les actrices des revues ont bien un rôle à jouer, c'est celui de co-concevoir, de co-designer de nouveaux dispositifs numériques pour l'appropriation, la circulation, et la  conversation des connaissances.
 
 C'est en celà, et en celà seulement, que cette fameuse fonction éditoriale, cad leur autorité, ou leur raison d'être, pourra se renouveller et remonter quelques marches de médiation dans un écosystème qui n'est pas désintermédié, mais au contraire fortement réintermédié par quelques acteurs silico-vallonnés, qui ont bien saisi eux le changement de paradigme.
 
